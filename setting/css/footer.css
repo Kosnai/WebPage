@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/*フッター部(始端)*/
+footer {
+    width:100vw;
+    background-color: #003737;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-size: 0.9em;
+    margin-top: 50px
+}
+
+/*フッター部(終端)*/

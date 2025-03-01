@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+html,
+body {
+    background-color: #000000;
+    height: 100vw;
+    margin: 0;
+    padding: 0;
+    /* 縦スクロール有効 */
+}
+
+a {
+    text-decoration: none;
+}
+
+/*タイトル部(始端)*/
+.title {
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.sep_line {
+    position: relative;
+    left: 0;
+    width: 1000px;
+    height: 3.5px;
+    border-width: 0;
+    background-image: -webkit-linear-gradient(left,
+            transparent 0%,
+            #ffffff 50%,
+            transparent 100%);
+    background-image: linear-gradient(90deg,
+            transparent 0%,
+            #ffffff 50%,
+            transparent 100%);
+
+}
+
+.title_position {
+    margin-top: 180px;
+}
+
+/*タイトル部(終端)*/
+
+/*周辺観光地紹介(始端)*/
+table {
+    margin: 20px auto;
+    width: 95vw;
+    height: 100vh;
+    border-spacing: 50px;
+}
+
+.sightseeing_name {
+    margin: 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    margin: 10px;
+
+}
+
+.img_style {
+    margin: 0;
+    width: 45vw;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.border{
+    border:2px solid #ffffff;
+}
+
+.web_connect{
+    color:#ffffff;
+    font-size: 20px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+/*周辺観光地紹介(終端)*/
