@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*ヘッダー部(始端)*/
+a:hover {
+    color: #ff6347;
+}
+
+.nav {
+    background-color: #003737;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /*width:100%;*/
+    height: 100px;
+    opacity: 0.85;
+
+}
+
+.navi_position {
+    margin: 0;
+}
+
+.navi_common {
+    float: left;
+    list-style: none;
+    font-family: 'Sawarabi Mincho', sans-serif;
+
+}
+
+.name {
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.other_setting1{
+    font-size: 20px;
+    padding: 60px 0 0 45px;
+}
+
+.other_setting2{
+    font-size: 20px;
+    padding: 60px 0 0 25px
+}
+
+.moji_color {
+    color: #ffffff;
+}
+/*ヘッダー部(終端)*/
