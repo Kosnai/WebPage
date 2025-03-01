@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+html,
+body {
+    background-color: #000000;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    /* 縦スクロール有効 */
+}
+
+a {
+    text-decoration: none;
+}
+
+.adjustment {
+    flex: 1;
+}
+
+/*タイトル部(始端)*/
+.title {
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.sep_line {
+    position: relative;
+    left: 0;
+    width: 500px;
+    height: 3.5px;
+    border-width: 0;
+    background-image: -webkit-linear-gradient(left,
+            transparent 0%,
+            #ffffff 50%,
+            transparent 100%);
+    background-image: linear-gradient(90deg,
+            transparent 0%,
+            #ffffff 50%,
+            transparent 100%);
+
+}
+
+.title_position {
+    margin-top: 180px;
+}
+/*タイトル部(終端)*/
+
+
+/*予約について(始端)*/
+.txt1 {
+    font-size: 20px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.txt2 {
+    font-size: 35px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.txt3 {
+    font-size: 35px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    color: #daa520
+}
+
+.reserv_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+}
+
+.reserv_button:hover {
+    background-color: #3e8e41;
+}
+
+
+/*予約について(終端)*/
+
+
+/*お問い合わせについて(始端)*/
+.inq_style {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    margin: 40px 0 40px 25vw;
+}
+
+.name_input {
+    width: 50vw;
+    height: 20px;
+}
+
+.email_input {
+    width: 50vw;
+    height: 20px;
+}
+
+.item_input {
+    width: 50.5vw;
+    height: 25px;
+}
+
+.input_content {
+    width: 50vw;
+    height: 150px;
+}
+
+.submit_button {
+    margin: 20px auto;
+    height: 100px;
+    width: 200px;
+}
+/*お問い合わせについて(終端)*/
